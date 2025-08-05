@@ -1,31 +1,4 @@
-# RPG
+# RPG Datapack
 
-
-## Hi DELIDON 
-Can you see it ?
-### Yes!!
-#### YEAHHH
-
-# RGP
-###### test
-
-# GRP
-GRPRGRPRGRPRGRPRG
-
-# PRG
-w
-
-# PGR
-naniyattennenngasuuuuuuuuuuuuuuuuuuuuuuuuu
-
-# GPR
-WTF
-Play LoL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LoLoLoLOLoLOlOLoLOlOLOLOLololOLOLOloloLOLoLOLOl
-Shutup
-
-# PRG
-nanikorechin100kei
-
-# rpgrpg
-hytahhaaaaaaaaaaaaaaaaaaaaaa
+This is RPG Datapack
+Created by DELIDON0531 & Lineside
