@@ -17,3 +17,6 @@ w
 
 # PGR
 naniyattennenngas
+
+# PRG
+nanikorechin100kei
