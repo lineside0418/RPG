@@ -19,5 +19,5 @@ jobs:
 
       - name: Deploy to server
         run: |
-          cd /DATA/AppData/crafty/servers/db973ccc-f0c3-4420-8cae-ac449dfa0737/world/datapacks/
-          git pull
+          cd /DATA/AppData/crafty/servers/db973ccc-f0c3-4420-8cae-ac449dfa0737/world/datapacks/RPG/
+          git pull origin main
