@@ -15,7 +15,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Checkout repository
-        run: git config --global --add safe.directory "${GITHUB_WORKSPACE}"
+        run: git config --global --add safe.directory "/DATA/AppData/crafty/servers/db973ccc-f0c3-4420-8cae-ac449dfa0737/world/datapacks/RPG/"
         uses: actions/checkout@v4
 
       - name: Deploy to server
