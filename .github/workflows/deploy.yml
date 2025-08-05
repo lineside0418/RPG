@@ -8,27 +8,16 @@ on:
     branches:
       - main
 
-# 実行するジョブ（処理のまとまり）
+# 実行するジョブ
 jobs:
   deploy:
-    # 実行するOS環境を指定
-    runs-on: debian-latest
+    # 自宅サーバーのランナーで実行
+    runs-on: self-hosted
     steps:
-      # 1. GitHubリポジトリのコードをチェックアウト
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. SSH接続してコマンドを実行
       - name: Deploy to server
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          # SSH接続に必要な情報をGitHubのSecretsから持ってくる
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          # サーバーで実行するコマンド
-          script: |
-            cd /DATA/AppData/crafty/servers/db973ccc-f0c3-4420-8cae-ac449dfa0737/world/datapacks/
-            git pull
-            # 他にも何か必要なコマンドがあれば、ここに書く
-            # 例: npm installとか、サービスを再起動するコマンドとか
+        run: |
+          cd /DATA/AppData/crafty/servers/db973ccc-f0c3-4420-8cae-ac449dfa0737/world/datapacks/
+          git pull
