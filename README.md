@@ -16,4 +16,10 @@ GRPRGRPRGRPRGRPRG
 w
 
 # PGR
-naniyattennenngas
+naniyattennenngasuuuuuuuuuuuuuuuuuuuuuuuuu
+
+# GPR
+WTF
+Play LoL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Shutup
