@@ -1,0 +1,26 @@
+# workflowの名前
+name: Deploy to My Server
+
+# どんな時にこのワークフローを実行するか
+on:
+  push:
+    # mainブランチにプッシュされた時だけ実行
+    branches:
+      - main
+
+# 実行するジョブ
+jobs:
+  deploy:
+    # 自宅サーバーのランナーで実行
+    runs-on: self-hosted
+    steps:
+      # 1. GitHubリポジトリのコードをチェックアウト
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Deploy to server
+      - name: Deploy to server
+        run: |
+          git config --global --add safe.directory /DATA/AppData/crafty/servers/db973ccc-f0c3-4420-8cae-ac449dfa0737/world/datapacks/RPG/
+          cd /DATA/AppData/crafty/servers/db973ccc-f0c3-4420-8cae-ac449dfa0737/world/datapacks/RPG/
+          git pull origin main
