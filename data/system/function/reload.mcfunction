@@ -7,5 +7,4 @@ say [System] Reloaded
 function system:scoreboard/create
 function system:scoreboard/set
 function system:scoreboard/constant
-function system:scoreboard/create
-function system:scoreboard/set
+
